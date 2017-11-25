@@ -1,0 +1,98 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-vr-web@^1.1.0",
+        "scope": null,
+        "escapedName": "react-vr-web",
+        "name": "react-vr-web",
+        "rawSpec": "^1.1.0",
+        "spec": ">=1.1.0 <2.0.0",
+        "type": "range"
+      },
+      "/Users/ayaleemy/lifung/VR360 POC 3.1/bitbucket"
+    ]
+  ],
+  "_from": "react-vr-web@>=1.1.0 <2.0.0",
+  "_id": "react-vr-web@1.4.0",
+  "_inCache": true,
+  "_location": "/react-vr-web",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/react-vr-web-1.4.0.tgz_1499452993262_0.6048827054910362"
+  },
+  "_npmUser": {
+    "name": "amberroy",
+    "email": "amber.roy@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-vr-web@^1.1.0",
+    "scope": null,
+    "escapedName": "react-vr-web",
+    "name": "react-vr-web",
+    "rawSpec": "^1.1.0",
+    "spec": ">=1.1.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-vr-web/-/react-vr-web-1.4.0.tgz",
+  "_shasum": "2c7db57b70a11e0635de16e7d5c000d5061f314d",
+  "_shrinkwrap": null,
+  "_spec": "react-vr-web@^1.1.0",
+  "_where": "/Users/ayaleemy/lifung/VR360 POC 3.1/bitbucket",
+  "bugs": {
+    "url": "https://github.com/facebook/react-vr/issues"
+  },
+  "dependencies": {
+    "ovrui": "~1.4.0"
+  },
+  "description": "A framework for building VR applications with React",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "2c7db57b70a11e0635de16e7d5c000d5061f314d",
+    "tarball": "https://registry.npmjs.org/react-vr-web/-/react-vr-web-1.4.0.tgz"
+  },
+  "files": [
+    "js",
+    "LICENSE",
+    "PATENTS",
+    "ReactVR.js",
+    "README.md"
+  ],
+  "homepage": "https://github.com/facebook/react-vr#readme",
+  "license": "BSD-3-Clause",
+  "main": "ReactVR.js",
+  "maintainers": [
+    {
+      "name": "amberroy",
+      "email": "amber.roy@gmail.com"
+    },
+    {
+      "name": "andrewimm",
+      "email": "andrewi@fb.com"
+    },
+    {
+      "name": "mikearm",
+      "email": "mike@m1k3.co.uk"
+    }
+  ],
+  "name": "react-vr-web",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react": "~15.4.1",
+    "react-native": "~0.42.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/react-vr.git"
+  },
+  "scripts": {},
+  "version": "1.4.0"
+}
