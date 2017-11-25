@@ -161,6 +161,8 @@ export class ReactNativeContext {
     this.modules = [];
     this.currentRootTag = 1;
     this.worker = new Worker(bridgeURL);
+    window._worker = this.worker;
+    
     this.guiSys = guiSys;
     this.messages = [];
     this.isLowLatency = !!options.isLowLatency; // Whether this context should target 90fps

@@ -45,7 +45,11 @@ onmessage = function(e) {
   if (!msg || !msg.cmd) {
     return;
   }
-  if (msg.cmd === 'moduleConfig' ) {
+  if(msg.cmd === 'jsBridge')
+  {
+    postMessage({cmd: 'jsBridge', params: msg.params});
+  }
+  else if (msg.cmd === 'moduleConfig' ) {
     __fbBatchedBridgeConfig = msg.moduleConfig;
     Status = 'moduleConfig';
   } else
@@ -118,6 +122,7 @@ onmessage = function(e) {
       }
     }
   }
+  
 }
 `;
 
